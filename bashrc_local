@@ -1,0 +1,9 @@
+# tmux ls
+tls(){
+	tmux ls
+}
+
+# tmux attach
+ta(){
+	tmux attach -t$1
+}
